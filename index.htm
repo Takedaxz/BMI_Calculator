@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .button {
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            width: 50px;
+            transition-duration: 0.4s;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <title>BMI Calculator</title>
+</head>
+
+<body style="font-family: 'Chakra Petch', sans-serif; background-color:#0c1b30; color:rgb(180, 159, 104)">
+    <center>
+        <p style="font-size: 50px; font-weight:bold">BMI</p>
+        <p>
+        <p style="padding:2px; font-size: 30px;">ใส่ความสูง(เซนติเมตร)</p>
+        <input id="input1" style="font-size: 30px; width: 100px;">
+        <p style="padding:2px; font-size: 30px;">ใส่น้ำหนัก(กิโลกรัม)</p>
+        <input id="input2" style="font-size: 30px; width: 100px;">
+        </p>
+        <button id="button">
+            <b class="button">คำนวณ</b></button>
+        <p style="font-size: 30px; color:white;" id="output1"></p>
+        <p style="font-size: 30px; color:white;" id="output2"></p>
+        <script src="index.js"></script>
+    </center>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script> kofiWidgetOverlay.draw('takedax', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support me',
+            'floating-chat.donateButton.background-color': '#d9534f',
+            'floating-chat.donateButton.text-color': '#fff'
+        });</script>
+</body>
+
+</html>
